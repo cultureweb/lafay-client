@@ -1,0 +1,33 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login > h1 {
+  font-size: xx-large;
+  padding: 10px 0px 20px;
+}
+.login__input {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  height: 35px;
+  border-radius: 3px;
+  margin: 1rem;
+}
+.login__input > input {
+  outline: 0;
+  border: none;
+  outline-width: 0;
+  margin-left: 10px;
+}
+.login button {
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  background-color: #515151;
+  padding: 10px 20px;
+  margin: 20px 0px 0px 10px;
+}

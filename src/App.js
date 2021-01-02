@@ -2,9 +2,10 @@ import "./App.css";
 import Home from "./views/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useState } from "react";
+import Login from "./Auth/Login";
 
 const App = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   console.log({ isLoggedIn });
 
   return (
@@ -14,7 +15,7 @@ const App = () => {
           <>
             <Switch>
               <Route path="/">
-                <h1> login page</h1>
+                <Login />
               </Route>
             </Switch>
           </>
