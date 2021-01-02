@@ -31,3 +31,9 @@
   padding: 10px 20px;
   margin: 20px 0px 0px 10px;
 }
+.login__error {
+  color: red;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: italic;
+}

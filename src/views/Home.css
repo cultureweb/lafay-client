@@ -19,3 +19,8 @@
   text-align: center;
   padding: 20px;
 }
+.home__logout {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
